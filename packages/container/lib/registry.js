@@ -32,8 +32,6 @@ export default function Registry(options) {
 
   this._typeInjections        = dictionary(null);
   this._injections            = dictionary(null);
-  this._factoryTypeInjections = dictionary(null);
-  this._factoryInjections     = dictionary(null);
 
   this._localLookupCache      = new EmptyObject();
   this._normalizeCache        = dictionary(null);
